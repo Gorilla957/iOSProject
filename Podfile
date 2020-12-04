@@ -6,7 +6,8 @@ target 'iOSProject' do
   use_frameworks!
 
   # Pods for iOSProject
-
+  pod 'SnapKit'
+  
   target 'iOSProjectTests' do
     inherit! :search_paths
     # Pods for testing
