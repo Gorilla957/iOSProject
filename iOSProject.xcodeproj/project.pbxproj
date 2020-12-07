@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186A8D75257E1DC6004B1536 /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A8D74257E1DC6004B1536 /* UIButton+TouchArea.swift */; };
 		1870C58F257A304000A58A8E /* UIBaseViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C58E257A304000A58A8E /* UIBaseViewContrller.swift */; };
 		1893B1A62578E9240002EE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893B1A52578E9240002EE4F /* AppDelegate.swift */; };
 		1893B1A82578E9240002EE4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893B1A72578E9240002EE4F /* SceneDelegate.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		07C34EBFF056815C5266506E /* Pods_iOSProject_iOSProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSProject_iOSProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A8D74257E1DC6004B1536 /* UIButton+TouchArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TouchArea.swift"; sourceTree = "<group>"; };
 		1870C58E257A304000A58A8E /* UIBaseViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBaseViewContrller.swift; sourceTree = "<group>"; };
 		1893B1A22578E9240002EE4F /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1893B1A52578E9240002EE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			children = (
 				1893B2092578F0EF0002EE4F /* UIView+Extension.swift */,
 				1893B22C2578F9740002EE4F /* String+Extension.swift */,
+				186A8D74257E1DC6004B1536 /* UIButton+TouchArea.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -392,7 +395,6 @@
 				DB29B9060D803DDF446FB4E8 /* Pods-iOSProjectTests.debug.xcconfig */,
 				2D141F3E08377C32587B31F3 /* Pods-iOSProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -647,6 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186A8D75257E1DC6004B1536 /* UIButton+TouchArea.swift in Sources */,
 				1893B1AA2578E9240002EE4F /* ViewController.swift in Sources */,
 				1893B24025790E5B0002EE4F /* AppInfo.swift in Sources */,
 				1870C58F257A304000A58A8E /* UIBaseViewContrller.swift in Sources */,
