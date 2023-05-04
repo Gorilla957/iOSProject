@@ -11,9 +11,9 @@ import Foundation
 extension Notification.Name {
     struct AppName {
         /// 用户登录成功
-        static let LoginSuccess = NSNotification.Name.init("LoginSuccess_Notifiction_Name")
+        static let LoginSuccess = NSNotification.Name("LoginSuccess_Notifiction_Name")
         
         /// 用户登出
-        static let Logout = NSNotification.Name.init("Logout_Notifiction_Name")
+        static let Logout = NSNotification.Name("Logout_Notifiction_Name")
     }
 }

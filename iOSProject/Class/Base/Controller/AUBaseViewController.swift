@@ -1,13 +1,13 @@
 //
-//  MainTabBarController.swift
+//  AUBaseViewController.swift
 //  iOSProject
 //
-//  Created by apple on 2020/12/9.
+//  Created by apple on 2020/12/4.
 //
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+class AUBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  UIHomeView.swift
+//  AUBaseView.swift
 //  iOSProject
 //
 //  Created by apple on 2020/12/17.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UIHomeView: UIBaseView {
+class AUBaseView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -16,4 +16,5 @@ class UIHomeView: UIBaseView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
 }

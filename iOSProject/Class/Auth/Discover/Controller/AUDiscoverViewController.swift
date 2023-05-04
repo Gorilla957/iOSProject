@@ -1,14 +1,14 @@
 //
-//  UIHomeViewController.swift
+//  AUDiscoverViewController.swift
 //  iOSProject
 //
-//  Created by apple on 2020/12/9.
+//  Created by steve on 2023/2/16.
 //
 
 import UIKit
 
-class UIHomeViewController: UIBaseViewContrller {
-    
+class AUDiscoverViewController: AUBaseViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
